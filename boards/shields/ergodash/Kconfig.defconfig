@@ -22,6 +22,6 @@ config BT_MAX_PAIRED
     default 6
 
 CONFIG_ZMK_STUDIO_LOCKING
-    default n
+    default y
 
 endif
