@@ -4,7 +4,6 @@
 / {
     chosen {
         zmk,physical-layout = &ergodash_physical_layout;
-        zmk,kscan = &mock_kscan;
     };
 
     default_transform: keymap_transform_0 {
