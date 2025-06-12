@@ -32,11 +32,11 @@
  */
 
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp N2        &kp N3  &kp N4  &kp N5  &kp GRAVE                             &kp PLUS       &kp N6  &kp N7    &kp N8     &kp N9          &kp N0          &kp BACKSPACE
-&kp TAB     &kp Q         &kp W         &kp E   &kp R   &kp T   &kp UNDER                             &kp MINUS      &kp Y   &kp U     &kp I      &kp O           &kp P           &kp BSLH
-&kp CAPS    &kp A         &kp S         &kp D   &kp F   &kp G   &kp SQT                               &kp EQUAL      &kp H   &kp J     &kp K      &kp L           &kp SEMI        &kp ENTER
-&kp LSHFT   &kp Z         &kp X         &kp C   &kp V   &kp B               &kp SPACE  &kp BACKSPACE                 &kp N   &kp M     &kp COMMA  &kp DOT         &kp UP_ARROW    &kp RSHFT
-&kp LCTRL   &kp LGUI      &kp LEFT_ALT  &to 1   &tog 2          &kp DELETE  &kp SPACE  &kp BACKSPACE  &kp RIGHT_ALT          &kp RALT  &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESCAPE  &kp NUMBER_1  &kp N2        &kp N3  &kp N4  &kp N5  &kp GRAVE                             &kp PLUS   &kp N6  &kp N7    &kp N8     &kp N9          &kp N0          &kp BACKSPACE
+&kp TAB     &kp Q         &kp W         &kp E   &kp R   &kp T   &kp UNDER                             &kp MINUS  &kp Y   &kp U     &kp I      &kp O           &kp P           &kp BSLH
+&kp CAPS    &kp A         &kp S         &kp D   &kp F   &kp G   &kp SQT                               &kp EQUAL  &kp H   &kp J     &kp K      &kp L           &kp SEMI        &kp ENTER
+&kp LSHFT   &kp Z         &kp X         &kp C   &kp V   &kp B               &kp SPACE  &kp BACKSPACE             &kp N   &kp M     &kp COMMA  &kp DOT         &kp UP_ARROW    &kp RSHFT
+&kp LCTRL   &kp LGUI      &kp LEFT_ALT  &to 1   &tog 2          &kp DELETE  &kp SPACE  &kp BACKSPACE  &kp SLASH          &kp RALT  &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -54,11 +54,11 @@
  * .----------------------------------------------------------------------------------------------------------------------.
  */ /* FIXME boot and reset are not yet locale aware */
             bindings = <
-&kp F11  &kp F1       &kp F2      &kp F3  &kp F4  &kp F5  &none                  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&none    &kp HOME     &kp END     &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
-&none    &none        &none       &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
-&trans   &bootloader  &sys_reset  &none   &none   &none          &none   &none          &none   &none   &none   &none   &none    &trans
-&trans   &none        &none       &trans  &trans          &none  &trans  &trans  &none          &trans  &none   &none   &none    &trans
+&kp F11         &kp F1       &kp F2      &kp F3  &kp F4  &kp F5  &none                  &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
+&studio_unlock  &kp HOME     &kp END     &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
+&none           &none        &none       &none   &none   &none   &none                  &none  &none   &none   &none   &none   &none    &none
+&trans          &bootloader  &sys_reset  &none   &none   &none          &none   &none          &none   &none   &none   &none   &none    &trans
+&trans          &none        &none       &trans  &trans          &none  &trans  &trans  &none          &trans  &none   &none   &none    &trans
             >;
         };
 
